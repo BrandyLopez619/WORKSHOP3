@@ -1,3 +1,5 @@
+"""GITHUB TEST"""
+
 def login(database, username, password):
     if username in database.keys() and password == database[username]:
         print(f'\nWelcome back {username}')
@@ -9,7 +11,7 @@ def login(database, username, password):
         print('\nUser not found. Please register')
         return ''
 
-'GITHUB TEST'
+# this is used for registering users
 def register(database, username):
     if username in database.keys():
         print('\nThat username is already registered')
