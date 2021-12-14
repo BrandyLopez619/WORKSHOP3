@@ -9,7 +9,7 @@ def login(database, username, password):
         print('\nUser not found. Please register')
         return ''
 
-
+'GITHUB TEST'
 def register(database, username):
     if username in database.keys():
         print('\nThat username is already registered')
